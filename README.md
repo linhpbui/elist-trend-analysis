@@ -20,7 +20,7 @@ This project aimed to provide insights that can help teams across the company un
   - 👉 **Diversify product offerings and explore new categories** to mitigate reliance on pandemic-drive trends and adapt to changing consumer behavior.
 - 💡 **Sales Slump in February & October: Plan for Off-Season Dips**
   - 👉 **Combat seasonal dips with targeted promotions and engagement strategies in October and February**, such as early holiday deals, limited-time offers, and customer re-engagement campaigns, to counteract seasonal dips.
-- 💡 **Loyalty Program Drives Growth, But High-Value Transactions Remain with Non-Members** 
+- 💡 **Loyalty Program Drives Growth, But High-Value Transactions Remain with Non-Loyalty Members** 
 	- 👉 **Convert high-spending non-loyalty customers into loyalty members** with tailored incentives that maintain their spending habits.
 	- 👉 **Optimize the loyalty program** with **tiered benefits, exclusive bulk discounts, or premium membership perks** to encourage higher-value transactions.
 - 💡 **High-Value Products Drive Sales but Experience Higher Refund Rates**
@@ -49,7 +49,7 @@ This project aimed to provide insights that can help teams across the company un
 👉 ***Recommendation:*** 
 - **Combat seasonal dips with targeted promotions and engagement strategies in October and February**, such as early holiday deals, limited-time offers, and customer re-engagement campaigns, to counteract seasonal dips.
 
-### Loyalty Program Drives Growth, But High-Value Transactions Remain with Non-Members
+### Loyalty Program Drives Growth, But High-Value Transactions Remain with Non-Loyalty Members
 ![Image](https://github.com/user-attachments/assets/c7c908a8-4080-4f35-81bb-51c0df66acf0)
 ![Image](https://github.com/user-attachments/assets/f3967c6a-ea01-4b4d-958b-8bc3c086eaed)
 
