@@ -23,7 +23,7 @@ This project aimed to provide insights that can help teams across the company un
 - 💡 **Loyalty Program Drives Growth, But High-Value Transactions Remain with Non-Loyalty Members** 
 	- 👉 **Convert high-spending non-loyalty customers into loyalty members** with tailored incentives that maintain their spending habits.
 	- 👉 **Optimize the loyalty program** with **tiered benefits, exclusive bulk discounts, or premium membership perks** to encourage higher-value transactions.
-- 💡 **High-Value Products Drive Sales but Experience Higher Refund Rates**
+- 💡 **Mid-Range to High-Value Products Drive Sales but Experience Higher Refund Rates**
 	- 👉 **Conduct customer surveys and analyze return data** to identify key issues with high-refund products (ThinkPad laptop, Macbook Air laptop, Apple AirPods, 27in 4K gaming monitor), such as quality, fit, functionality, or misleading expectations. 
 	- 👉 **Enhance post-purchase support** by offering **troubleshooting assistance, extended warranties, or repair/replacement options** to reduce unnecessary returns and improve customer satisfaction.
 
@@ -34,7 +34,7 @@ This project aimed to provide insights that can help teams across the company un
 
 - From 2019 to 2022, over 108K orders were placed, generating over **$28.1M in total sales**. 
 - **2020 saw the highest revenue at $10M**, a **163% surge from 2019**, with **an average order value (AOV) of $300**. March 2020 experienced the sharpest monthly spike (~50%) in sales and orders, driven by the shift to online shopping and remote work.
-- In 2021, **sales growth rate slowed by 10%**, and **AOV dropped to $255**, reflecing weakening pandemic-driven demand.
+- In 2021, **sales growth rate slowed by 10%**, and **AOV dropped to $255**, reflecting weakening pandemic-driven demand.
 - The trend continued downward with **a sharp decline of 46% in 2022**, suggesting a return to pre-pandemic consumer behavior.
 - The decline steepened in **2022, with sales falling 46%**, signaling a return to pre-pandemic consumer behavior.
 
@@ -67,14 +67,14 @@ Further breakdown of the loyalty vs non-loyalty cohort by percentile shows that:
 - **Convert high-spending non-loyalty customers into loyalty members** with tailored incentives that maintain their spending habits.
 - **Optimize the loyalty program** with **tiered benefits, exclusive bulk discounts, or premium membership perks** to encourage higher-value transactions.
 
-### High-Value Products Drive Sales but Experience Higher Refund Rates
+### Mid-Range to High-Value Products Drive Sales but Experience Higher Refund Rates
 <img width="1241" alt="Image" src="https://github.com/user-attachments/assets/7e5b46cd-3389-4048-a365-d3ec28e579d6" />
 
 - **Apple products account for 49% of all orders**, generating **$14M in sales**, with **Apple Airpods headphones leading in volume (48K+ orders)**.
 - In 2020, the refund rate was 9.21%, dropping to 3.61% in 2021. **The overall 5% refund rate** remains well below the **8-10% industry benchmark** ([1](https://www.richpanel.com/blog/ecommerce-return-rates),[2](https://ecommercedb.com/benchmarks/us/consumer-electronics)), highlighting strong product performance across most categories.
 - **ThinkPad (12%) and Macbook Air laptops (11%) have the highest refund rate** across all store orders, despite accounting for only 2.70% and 3.67% of orders, respectively. 
-- **Apple AirPods (2K+ refunds) and 27-inch 4K gaming monitor (1K+ refunds) have the highest absolute refund counts**, making them key focus areas for return reduction. 
-- **Higher-value products may see more refunds due to customer expectation, product performance, or usability concerns** rather than impulse buying. This trend suggests that expensive electronics are more return-prone due to **price sensitivity, feature complexity, or differing expectations**.
+- **Apple AirPods (2K+ refunds) and 27-inch 4K gaming monitor (1K+ refunds) have the highest refund counts**, making them key focus areas for return reduction. 
+- **Mid-range to higher-value products may see more refunds due to customer expectation, product performance, or usability concerns** rather than impulse buying. This trend suggests that expensive electronics are more return-prone due to **price sensitivity, feature complexity, or differing expectations**.
 
 👉 ***Recommendation:*** 
 - **Conduct customer surveys and analyze return data** to identify key issues with high-refund products (ThinkPad laptop, Macbook Air laptop, Apple AirPods, 27in 4K gaming monitor), such as quality, fit, functionality, or misleading expectations. 
