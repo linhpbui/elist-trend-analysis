@@ -46,6 +46,7 @@ This project aimed to provide insights that can help teams across the company un
 
 👉 ***Recommendation:*** 
 - **Combat seasonal dips with targeted promotions and engagement strategies in October and February**, such as early holiday deals, limited-time offers, and customer re-engagement campaigns, to counteract seasonal dips.
+- **Collaborate with the Marketing team** to investigate the sharp decline in sales in October 2022 and identify the underlying causes.
 
 ### Loyalty Program Drives Growth, But High-Value Transactions Remain with Non-Loyalty Members
 ![Image](https://github.com/user-attachments/assets/c7c908a8-4080-4f35-81bb-51c0df66acf0)
