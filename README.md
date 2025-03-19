@@ -34,8 +34,7 @@ This project aimed to provide insights that can help teams across the company un
 
 - From 2019 to 2022, over 108K orders were placed, generating over **$28.1M in total sales**. 
 - **2020 saw the highest revenue at $10M**, a **163% surge from 2019**, with **an average order value (AOV) of $300**. March 2020 experienced the sharpest monthly spike (~50%) in sales and orders, driven by the shift to online shopping and remote work.
-- In 2021, **sales growth rate slowed by 10%**, and **AOV dropped to $255**.
-- The decline steepened in **2022, with sales falling 46%**, signaling a return to pre-pandemic consumer behavior.
+- In 2021, **sales growth rate slowed by 10%**, and **AOV dropped to $255**. The decline steepened in **2022, with sales falling 46%**, signaling a return to pre-pandemic consumer behavior.
 
 👉 ***Recommendations:*** 
 - **Diversify product offerings and explore new categories** to mitigate reliance on pandemic-drive trends and adapt to changing consumer behavior.
