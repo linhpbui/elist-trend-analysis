@@ -20,6 +20,7 @@ This project aimed to provide insights that can help teams across the company un
   - 👉 **Diversify product offerings and explore new categories** to mitigate reliance on pandemic-drive trends and adapt to changing consumer behavior.
 - 💡 **Sales Slump in February & October: Plan for Off-Season Dips**
   - 👉 **Combat seasonal dips with targeted promotions and engagement strategies in October and February**, such as early holiday deals, limited-time offers, and customer re-engagement campaigns, to counteract seasonal dips.
+  - 👉 **Collaborate with the Marketing team** to investigate the sharp decline in sales in October 2022 and identify the underlying causes.
 - 💡 **Loyalty Program Drives Growth, But High-Value Transactions Remain with Non-Loyalty Members** 
 	- 👉 **Convert high-spending non-loyalty customers into loyalty members** with tailored incentives that maintain their spending habits.
 	- 👉 **Optimize the loyalty program** with **tiered benefits, exclusive bulk discounts, or premium membership perks** to encourage higher-value transactions.
