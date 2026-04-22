@@ -78,4 +78,5 @@ This project aimed to provide insights that can help teams across the company un
 ## About the data
 - The ERD is available [here](https://github.com/linhpbui/elist-trend-analysis/blob/main/ERD.png?raw=true).
 - Refund dates apply only to products purchased between 2019 and 2022.
+- Data cleaning and wrangling was done in R using tidyverse and lubricate.
 - Supplemental SQL queries used for analysis can be found [here](https://github.com/linhpbui/elist-trend-analysis/blob/main/sql-queries.sql).
