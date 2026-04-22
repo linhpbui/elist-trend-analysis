@@ -1,0 +1,105 @@
+```{r load_libraries}
+library(tidyverse)
+library(lubridate)
+```
+
+```{r load_file}
+order_df <- read_csv('orders_data_raw.csv')
+head(order_df)
+
+country_lookup_df <- read_csv('country_lookup_raw.csv', na = c("", "NULL"))
+head(country_lookup_df)
+```
+
+```{r check_order_df}
+dim(order_df)
+names(order_df)
+glimpse(order_df)
+Hmisc::describe(order_df) # distinct values
+```
+
+```{r clean_data}
+order_cleaned <- order_df %>% 
+  # rename column titles
+  rename_with(tolower) %>% 
+  # format characters to factors
+  mutate_if(is.character, as.factor) %>%
+  # clean date format
+  mutate(across(c(ends_with("_ts"), created_on),
+  ~ as.Date(as.factor(.), format = "%m/%d/%Y"))) %>%
+  # clean product names
+  mutate(product_name = product_name %>%
+         gsub("27in\"\"", "27in", .) %>%
+         gsub("4k", "4K", ., ignore.case = TRUE) %>%
+         trimws()) %>%
+  # remove NA in purchase_ts
+  drop_na(purchase_ts) %>%
+  # add new columns
+  mutate(
+    # format values in product_name columns
+    product_name = str_to_title(product_name),
+    # get purchase month and year
+    purchase_year = year(ymd(purchase_ts)),
+    purchase_month = month(ymd(purchase_ts)),
+    # there are a lot of refund date missing, but they are necessary so mutating them into 'refund or not' columns
+    refunded = ifelse(is.na(refund_ts), 0, 1),
+    # add 'purchase to delivery days' column
+    purchase_delivery_days = as.numeric(difftime(delivery_ts, purchase_ts, units = 'days')),
+    # loyalty: 1= yes, 0= no
+    is_loyal = ifelse(loyalty_program == 1, 'yes', 'no')
+  ) %>% 
+  # relocate the newly created columns
+  relocate(c(purchase_year, purchase_month), .after = purchase_ts) %>%
+  relocate(refunded, .after = refund_ts) %>% 
+  relocate(purchase_delivery_days, .after = delivery_ts) 
+
+# find weird date
+subset(order_cleaned, refund_ts > as.Date('2024-01-20')) # user id 1571b7e3	87a90f08
+
+# update date
+order_cleaned$refund_ts[order_cleaned$refund_ts > Sys.Date()] <- NA
+
+# check if update is accurate
+subset(order_cleaned, user_id == '1571b7e3')
+
+head(order_cleaned)
+```
+
+```{r check_columns}
+lapply(order_cleaned, levels) # find unique values
+sapply(order_cleaned, class) # find class
+
+# check values
+unique(order_cleaned$purchase_ts)
+unique(order_cleaned$product_name)
+
+# find missing values percentage per column
+order_cleaned %>% summarize_all(funs(sum(is.na(.)) / length(.) * 100))
+
+# find NA in specific columns
+subset(df, is.na(df$purchase_year))
+```
+
+```{r join_db}
+# clean column titles
+country_cleaned <- country_lookup_df %>% rename_with(tolower)
+
+# join 2 tables
+df <- order_cleaned %>% left_join(country_cleaned, by='country_code')
+head(df)
+```
+
+```{r}
+# write_csv(df, 'cleaned_df.csv')
+```
+
+```{r}
+unique(df[c('product_name','product_id')])
+```
+
+```{r}
+# descriptive stats
+summary(df)
+```
+
+The rest of the analysis is done in Excel
