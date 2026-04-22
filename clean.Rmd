@@ -102,4 +102,36 @@ unique(df[c('product_name','product_id')])
 summary(df)
 ```
 
+Cohort analysis to further understand order value distribution by year and loyalty status
+
+```{r}
+df %>%
+  filter(!is.na(usd_price), !is.na(is_loyal)) %>%
+  mutate(
+    year = as.factor(purchase_year),
+    is_loyal = factor(is_loyal,
+                      levels = c("yes", "no"),
+                      labels = c("loyalty", "non-loyalty"))
+  ) %>%
+  ggplot(aes(x = year, y = usd_price, fill = is_loyal)) +
+  geom_boxplot(alpha = 0.7, outlier.alpha = 0.3,
+               position = position_dodge(width = 0.8)) +
+  scale_fill_manual(values = c("loyalty" = "#B8B8B8",
+                               "non-loyalty" = "#F4A582")) +
+  labs(
+    title = "Order value distribution by year and loyalty status",
+    subtitle = "Non-loyalty members show wider AOV spread and a higher 75th percentile in most years",
+    x = NULL,
+    y = "Order value (USD)",
+    fill = "Membership"
+  ) +
+  theme_minimal(base_size = 12) +
+  theme(
+    legend.position = "top",
+    panel.grid.minor = element_blank(),
+    plot.title = element_text(face = "bold"),
+    plot.subtitle = element_text(color = "grey40")
+  )
+```
+
 The rest of the analysis is done in Excel
