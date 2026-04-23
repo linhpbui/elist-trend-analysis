@@ -51,7 +51,7 @@ This project aimed to provide insights that can help teams across the company un
 
 #### Further breakdown of the loyalty vs non-loyalty cohort by percentile shows that: 
 
-<img width="1358" height="839" alt="image" src="https://github.com/user-attachments/assets/4ab07ded-f34f-46f8-9467-d7e5e99c6548" />
+<img width="704" height="442" alt="image" src="https://github.com/user-attachments/assets/66d86097-5b49-4ea7-a54b-c080e1d1bdaf" />
 
 
 - **High-value customers are often non-loyalty members**. Across all four years, the top 25% of non-loyalty customers consistently spent more per order than loyalty members. This suggests that occasional or bulk buyers drive larger transactions without being part of the loyalty program.
